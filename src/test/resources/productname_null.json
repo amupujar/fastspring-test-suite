@@ -1,0 +1,61 @@
+{
+  "products": [
+    {
+      "product": "",
+      "display": {
+        "en": "First Attempt"
+      },
+      "description": {
+        "summary": {
+          "en": "String"
+        },
+        "action": {
+          "en": "String"
+        },
+        "full": {
+          "en": "String"
+        }
+      },
+      "fulfillment": {
+        "instructions":{
+          "en":"String",
+          "es":"String"
+        }
+      },
+      "fulfillments": [
+        {
+          "type":"file",
+          "url":"http://developer.ebay.com/devzone/merchant-products/mip-samples/ebay-feed-xml/product-search.xml",
+          "display":"product-search.xml",
+          "applicability":"ALWAYS",
+          "behavior":"CURRENT"
+        }
+      ],
+      "image": "https://d38v6yr1d77bzy.cloudfront.net/gVJK5OAoRmg/41VBBepiQRI/individual-mosaic.jpg",
+      "format": "digital",
+      "sku": "string",
+      "attributes": {
+        "key1": "value1",
+        "key2": "value2"
+      },
+      "pricing": {
+        "trial": 2,
+        "interval": "month",
+        "intervalLength": 1,
+        "quantityBehavior": "allow",
+        "quantityDefault": 1,
+        "price": {
+          "USD": 14.95,
+          "EUR": 10.99
+        },
+        "quantityDiscounts": {
+          "10": 25.00,
+          "30": {"USD": 25.00, "EUR": 15}
+        },
+        "discountReason": {
+          "en": "The Reason"
+        },
+        "discountDuration": 1
+      }
+    }]
+}
